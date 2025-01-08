@@ -17,3 +17,17 @@ Para utilizar `ClassGlobal` en tu proyecto Delphi, inclúyelo en la cláusula us
 ```pascal
 uses
   ClassGlobal;
+
+## Uso
+Aquí hay un ejemplo de cómo utilizar `ClassGlobal` para manipular cadenas:
+
+```pascal
+uses
+  ClassGlobal;
+
+var
+  result: string;
+begin
+  result := TrimAndUppercase('  hola mundo  ');
+  ShowMessage(result); // Muestra 'HOLA MUNDO'
+end;
